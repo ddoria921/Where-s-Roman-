@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One");
+.container * {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+}
+
+img.roman {
+  object-fit: contain;
+  width: 90px;
+  position: relative;
+  top: -20px;
+  left: -25px;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 10;
+}
+
+.container.fadeout {
+  transition: opacity 450ms ease-out;
+  opacity: 0;
+}
+
+.compass {
+  width: 480px;
+  height: 480px;
+  background-color: transparent;
+  border: 4px solid #2d3436;
+  border-radius: 50%;
+}
+
+.lines {
+  width: 4px;
+  height: 100%;
+  background-color: #B6E3FC;
+  z-index: -1;
+}
+.lines:nth-child(5n-4) {
+  width: 5px;
+  background-color: #FF5252;
+}
+
+.lines:nth-child(1) {
+  transform: rotate(1deg);
+}
+
+.lines:nth-child(2) {
+  transform: rotate(7deg);
+}
+
+.lines:nth-child(3) {
+  transform: rotate(13deg);
+}
+
+.lines:nth-child(4) {
+  transform: rotate(19deg);
+}
+
+.lines:nth-child(5) {
+  transform: rotate(25deg);
+}
+
+.lines:nth-child(6) {
+  transform: rotate(31deg);
+}
+
+.lines:nth-child(7) {
+  transform: rotate(37deg);
+}
+
+.lines:nth-child(8) {
+  transform: rotate(43deg);
+}
+
+.lines:nth-child(9) {
+  transform: rotate(49deg);
+}
+
+.lines:nth-child(10) {
+  transform: rotate(55deg);
+}
+
+.lines:nth-child(11) {
+  transform: rotate(61deg);
+}
+
+.lines:nth-child(12) {
+  transform: rotate(67deg);
+}
+
+.lines:nth-child(13) {
+  transform: rotate(73deg);
+}
+
+.lines:nth-child(14) {
+  transform: rotate(79deg);
+}
+
+.lines:nth-child(15) {
+  transform: rotate(85deg);
+}
+
+.lines:nth-child(16) {
+  transform: rotate(91deg);
+}
+
+.lines:nth-child(17) {
+  transform: rotate(97deg);
+}
+
+.lines:nth-child(18) {
+  transform: rotate(103deg);
+}
+
+.lines:nth-child(19) {
+  transform: rotate(109deg);
+}
+
+.lines:nth-child(20) {
+  transform: rotate(115deg);
+}
+
+.lines:nth-child(21) {
+  transform: rotate(121deg);
+}
+
+.lines:nth-child(22) {
+  transform: rotate(127deg);
+}
+
+.lines:nth-child(23) {
+  transform: rotate(133deg);
+}
+
+.lines:nth-child(24) {
+  transform: rotate(139deg);
+}
+
+.lines:nth-child(25) {
+  transform: rotate(145deg);
+}
+
+.lines:nth-child(26) {
+  transform: rotate(151deg);
+}
+
+.lines:nth-child(27) {
+  transform: rotate(157deg);
+}
+
+.lines:nth-child(28) {
+  transform: rotate(163deg);
+}
+
+.lines:nth-child(29) {
+  transform: rotate(169deg);
+}
+
+.lines:nth-child(30) {
+  transform: rotate(175deg);
+}
+
+.lines:nth-child(31) {
+  transform: rotate(181deg);
+}
+
+.lines:nth-child(32) {
+  transform: rotate(187deg);
+}
+
+.lines:nth-child(33) {
+  transform: rotate(193deg);
+}
+
+.lines:nth-child(34) {
+  transform: rotate(199deg);
+}
+
+.lines:nth-child(35) {
+  transform: rotate(205deg);
+}
+
+.lines:nth-child(36) {
+  transform: rotate(211deg);
+}
+
+.lines:nth-child(37) {
+  transform: rotate(217deg);
+}
+
+.lines:nth-child(38) {
+  transform: rotate(223deg);
+}
+
+.lines:nth-child(39) {
+  transform: rotate(229deg);
+}
+
+.lines:nth-child(40) {
+  transform: rotate(235deg);
+}
+
+.lines:nth-child(41) {
+  transform: rotate(241deg);
+}
+
+.lines:nth-child(42) {
+  transform: rotate(247deg);
+}
+
+.lines:nth-child(43) {
+  transform: rotate(253deg);
+}
+
+.lines:nth-child(44) {
+  transform: rotate(259deg);
+}
+
+.lines:nth-child(45) {
+  transform: rotate(265deg);
+}
+
+.lines:nth-child(46) {
+  transform: rotate(271deg);
+}
+
+.lines:nth-child(47) {
+  transform: rotate(277deg);
+}
+
+.lines:nth-child(48) {
+  transform: rotate(283deg);
+}
+
+.lines:nth-child(49) {
+  transform: rotate(289deg);
+}
+
+.lines:nth-child(50) {
+  transform: rotate(295deg);
+}
+
+.lines:nth-child(51) {
+  transform: rotate(301deg);
+}
+
+.lines:nth-child(52) {
+  transform: rotate(307deg);
+}
+
+.lines:nth-child(53) {
+  transform: rotate(313deg);
+}
+
+.lines:nth-child(54) {
+  transform: rotate(319deg);
+}
+
+.lines:nth-child(55) {
+  transform: rotate(325deg);
+}
+
+.lines:nth-child(56) {
+  transform: rotate(331deg);
+}
+
+.lines:nth-child(57) {
+  transform: rotate(337deg);
+}
+
+.lines:nth-child(58) {
+  transform: rotate(343deg);
+}
+
+.lines:nth-child(59) {
+  transform: rotate(349deg);
+}
+
+.directions {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Patua One', cursive;
+  color: #395060;
+  z-index: 1;
+}
+.directions .E {
+  left: -85%;
+  width: 30px;
+  height: 30px;
+}
+.directions .S {
+  top: 80%;
+  width: 30px;
+  height: 30px;
+}
+.directions .N {
+  top: -80%;
+  width: 30px;
+  height: 30px;
+}
+.directions .W {
+  left: 80%;
+  width: 30px;
+  height: 30px;
+}
+
+.needle {
+  width: 45%;
+  height: 45%;
+  transition: all 300ms;
+  animation: rotate 5s alternate;
+  transform: rotate(75deg);
+}
+.needle .main {
+  width: 60px;
+  height: 30px;
+  background-color: #ff793f;
+  transform: skew(60deg) scale(1.2);
+}
+.needle .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #30336b;
+}
+
+.cover {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(120deg);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(160deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(75deg);
+  }
+}
